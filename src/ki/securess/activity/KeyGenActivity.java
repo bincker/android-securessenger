@@ -4,9 +4,9 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.ObjectOutputStream;
 import java.security.KeyPair;
-import java.security.KeyPairGenerator;
 
 import ki.securess.Constants;
+import ki.securess.CryptUtil;
 import ki.securess.R;
 import android.app.Activity;
 import android.os.Bundle;
@@ -27,8 +27,6 @@ public class KeyGenActivity extends Activity
 	public static final int RESULT_ERROR = RESULT_OK + 1;
 
 	public static final int RESULT_NOCHANGE = RESULT_ERROR + 1;
-
-	private static final String KEY_TYPE = "RSA";
 
 	private static final int KEY_SIZE = 4096;
 
@@ -123,9 +121,7 @@ public class KeyGenActivity extends Activity
 				}
 
 				// Generation - takes up nearly 30secs on Nexus One for a 4k key
-				KeyPairGenerator keyGen = KeyPairGenerator.getInstance(KEY_TYPE);
-				keyGen.initialize(KEY_SIZE);
-				KeyPair key = keyGen.generateKeyPair();
+				KeyPair key = CryptUtil.genKey(KEY_SIZE);
 
 				// Write down keys on disk
 				ObjectOutputStream fospriv = new ObjectOutputStream(new FileOutputStream(fpriv));
