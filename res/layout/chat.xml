@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<TextView android:id="@+id_chat/notificationText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="top" android:visibility="gone"/>
+	<ListView android:id="@+id_chat/textMessages" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stackFromBottom="true" android:transcriptMode="alwaysScroll" android:layout_weight="1" android:background="@color/white" android:textColor="@color/black"/>
+	<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<EditText android:id="@+id_chat/editText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:layout_gravity="bottom" />
+   		<Button android:id="@+id_chat/btnSend" android:layout_width="wrap_content" android:enabled="false" android:layout_height="wrap_content" android:text="@string/send" />
+	</LinearLayout>
+</LinearLayout>

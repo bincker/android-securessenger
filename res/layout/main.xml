@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView android:id="@+id_main/no_key_available" android:visibility="invisible" android:text="@string/no_key_available" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    
+    <Button android:id="@+id_main/btn_host" android:text="@string/host" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <Button android:id="@+id_main/btn_connect" android:text="@string/connect" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Securessenger</string>
+    <string name="menu_options">Options</string>
+    <string name="menu_key_generator">Key Generator</string>
+    <string name="waiting_code">Waiting for connection. IP:</string>
+    <string name="exchanging_keys">Exchanging keys...</string>
+    <string name="host">Host</string>
+    <string name="no_network">Network not available</string>
+    <string name="connection_closed">Connection closed</string>
+    <string name="connection_not_established">Can\'t connect</string>
+    <string name="stop_host">Stop Hosting</string>
+    <string name="connect">Connect</string>
+    <string name="enter_code">Enter IP</string>
+    <string name="invalid_code">Invalid IP</string>
+    <string name="generating">Generating...</string>
+    <string name="no_key_available">No key available. Use the menu-> Key generator to generate one</string>
+    <string name="keygenactivity_keys_invalid">Keys are invalid or never been generated.</string>
+    <string name="keygenactivity_generate">Generate</string>
+    <string name="keygenactivity_regenerate">re-Generate</string>
+    <string name="key_generated">Key succesfully generated</string>
+    <string name="error_on_generate_key">Error while generating key</string>
+    <string name="error_on_loading_key">Error while loading key</string>
+    <string name="send">Send</string>
+    <string name="chat_me">Me:</string>
+    <string name="chat_you">You:</string>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>
