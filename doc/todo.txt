@@ -1,0 +1,6 @@
+
+
+ - Show key fingerprint
+ 
+ - Use dyndns for hoster
+ 
