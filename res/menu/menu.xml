@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 	<item android:title="@string/menu_key_generator" android:id="@+id_menu/key_generator"/>
-	<item android:title="@string/menu_options" android:id="@+id_menu/menu_options"/>
+	<!--<item android:title="@string/menu_options" android:id="@+id_menu/menu_options"/>-->
 </menu>
