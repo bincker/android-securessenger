@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Securessenger</string>
+    <string name="app_subtitle">a secure crypted chat</string>    
     <string name="menu_options">Options</string>
     <string name="menu_key_generator">Key Generator</string>
-    <string name="waiting_code">Waiting for connection. IP:</string>
+    <string name="waiting_code">Waiting for connection.\nGive the following IP to the person you want to communicate with:</string>
     <string name="exchanging_keys">Exchanging keys...</string>
-    <string name="host">Host</string>
+    <string name="host">Host a chat (by public IP)</string>
     <string name="no_network">Network not available</string>
     <string name="connection_closed">Connection closed</string>
     <string name="connection_not_established">Can\'t connect</string>
     <string name="stop_host">Stop Hosting</string>
-    <string name="connect">Connect</string>
+    <string name="connect">Connect to a waiting host</string>
     <string name="enter_code">Enter IP</string>
     <string name="invalid_code">Invalid IP</string>
-    <string name="generating">Generating...</string>
+    <string name="generating">Generating...\n(This window will close automatically when finished)</string>
     <string name="no_key_available">No key available. Use the menu-> Key generator to generate one</string>
     <string name="keygenactivity_keys_invalid">Keys are invalid or never been generated.</string>
     <string name="keygenactivity_generate">Generate</string>
