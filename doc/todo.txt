@@ -4,3 +4,5 @@
  
  - Use dyndns for hoster
  
+ - Notification on messages?
+   - Activity is session only though, should be reworked for making it that way.
